@@ -20,7 +20,7 @@ In this room, I started learning about **forensics on Linux systems** — an ess
 
 Linux is **open-source, lightweight, modular**, and **customizable**, which makes it ideal for servers, IoT devices, and even smartphones.
 
-![0_nNUVyylH5bnFvudW.webp](0_nNUVyylH5bnFvudW.webp)
+![0_nNUVyylH5bnFvudW.png](0_nNUVyylH5bnFvudW.png)
 
 Some common **Linux distributions (distros)** include:
 
@@ -101,7 +101,7 @@ cat /etc/passwd | column -t -s :
 cat /etc/group
 ```
 
-![1_SVTaK7RHtSKZlyhKjOexpw.webp](1_SVTaK7RHtSKZlyhKjOexpw.webp)
+![1_SVTaK7RHtSKZlyhKjOexpw.png](1_SVTaK7RHtSKZlyhKjOexpw.png)
 
 - Shows all groups and which users belong to them.
 - Example: `ubuntu` is in the **adm** group.
@@ -116,7 +116,7 @@ Command:
 sudo cat /etc/sudoers
 ```
 
-![1_bdA2frvCi34nryEu99fmxA.webp](1_bdA2frvCi34nryEu99fmxA.webp)
+![1_bdA2frvCi34nryEu99fmxA.png](1_bdA2frvCi34nryEu99fmxA.png)
 
 - Lists users allowed to elevate privileges using **sudo**.
 
@@ -150,7 +150,7 @@ Command:
 cat /var/log/auth.log | less
 ```
 
-![1_jBII9BlKBH_Q33J07upj_A.webp](1_jBII9BlKBH_Q33J07upj_A.webp)
+![1_jBII9BlKBH_Q33J07upj_A.png](1_jBII9BlKBH_Q33J07upj_A.png)
 
 - Logs user authentications and sudo usage.
 
@@ -202,7 +202,7 @@ File: `/etc/hostname`
 cat /etc/hostname
 ```
 
-![1_jlp3AgN5pRmZT3nkCSUgLQ.webp](1_jlp3AgN5pRmZT3nkCSUgLQ.webp)
+![1_jlp3AgN5pRmZT3nkCSUgLQ.png](1_jlp3AgN5pRmZT3nkCSUgLQ.png)
 
 **Answer:** `Linux4n6`
 
@@ -214,7 +214,7 @@ File: `/etc/timezone`
 cat /etc/timezone
 ```
 
-![1_7Sl4K8eVC7Stn8jQTqXBAQ.webp](1_7Sl4K8eVC7Stn8jQTqXBAQ.webp)
+![1_7Sl4K8eVC7Stn8jQTqXBAQ.png](1_7Sl4K8eVC7Stn8jQTqXBAQ.png)
 
 **Answer:** `Asia/Karachi`
 
@@ -226,7 +226,7 @@ File: `/etc/network/interfaces`
 cat /etc/network/interfaces
 ```
 
-![1_ZlUzxMkulZDpUxM6ehXsJA.webp](1_ZlUzxMkulZDpUxM6ehXsJA.webp)
+![1_ZlUzxMkulZDpUxM6ehXsJA.png](1_ZlUzxMkulZDpUxM6ehXsJA.png)
 
 For live systems, to check IPs and interfaces:
 
@@ -234,7 +234,7 @@ For live systems, to check IPs and interfaces:
 ip address show
 ```
 
-![1_PUWnGnA1lA8Cf3RzvZgNhw.webp](1_PUWnGnA1lA8Cf3RzvZgNhw.webp)
+![1_PUWnGnA1lA8Cf3RzvZgNhw.png](1_PUWnGnA1lA8Cf3RzvZgNhw.png)
 
 ### 4. Active Network Connections
 
@@ -279,9 +279,9 @@ cat /etc/hosts
 cat /etc/resolv.conf
 ```
 
-![1_CmCckScxeX6q2bCuAUDy3w.webp](1_CmCckScxeX6q2bCuAUDy3w.webp)
+![1_CmCckScxeX6q2bCuAUDy3w.png](1_CmCckScxeX6q2bCuAUDy3w.png)
 
-![1_P2-wF4KZnHLpoOZYb25Bkg.webp](1_P2-wF4KZnHLpoOZYb25Bkg.webp)
+![1_P2-wF4KZnHLpoOZYb25Bkg.png](1_P2-wF4KZnHLpoOZYb25Bkg.png)
 
 ---
 
@@ -330,7 +330,7 @@ Persistence mechanisms help attackers **retain access** to a Linux system even a
     ls /etc/init.d
     ```
     
-    ![1_iNRVA81vRYnVzxDlIMHyjQ.webp](1_iNRVA81vRYnVzxDlIMHyjQ.webp)
+    ![1_iNRVA81vRYnVzxDlIMHyjQ.png](1_iNRVA81vRYnVzxDlIMHyjQ.png)
     
 
 ---
@@ -346,7 +346,7 @@ Persistence mechanisms help attackers **retain access** to a Linux system even a
     cat ~/.bashrc
     ```
     
-    ![1_dOLpdYKCPxk7PLHgZD4jTA.webp](1_dOLpdYKCPxk7PLHgZD4jTA.webp)
+    ![1_dOLpdYKCPxk7PLHgZD4jTA.png](1_dOLpdYKCPxk7PLHgZD4jTA.png)
     
     System-wide startup scripts can also exist in:
     
@@ -365,7 +365,7 @@ Command:
 cat ~/.bashrc | grep HISTSIZE
 ```
 
-![1_PfgIdSws5ZeWsT7kO4BF5w.webp](1_PfgIdSws5ZeWsT7kO4BF5w.webp)
+![1_PfgIdSws5ZeWsT7kO4BF5w.png](1_PfgIdSws5ZeWsT7kO4BF5w.png)
 
 **Answer:** `2000`
 
@@ -393,7 +393,7 @@ To view only `sudo` commands:
 cat /var/log/auth.log* | grep sudo
 ```
 
-![1_mhIuRuZ9Req1NKTP0NCTuQ.webp](1_mhIuRuZ9Req1NKTP0NCTuQ.webp)
+![1_mhIuRuZ9Req1NKTP0NCTuQ.png](1_mhIuRuZ9Req1NKTP0NCTuQ.png)
 
 ---
 
@@ -405,7 +405,7 @@ Each user’s bash command history is stored in their home directory:
 /home/<username>/.bash_history
 ```
 
-![1_Q-pC3sKNBT5mOOtLdwZB1A.webp](1_Q-pC3sKNBT5mOOtLdwZB1A.webp)
+![1_Q-pC3sKNBT5mOOtLdwZB1A.png](1_Q-pC3sKNBT5mOOtLdwZB1A.png)
 
 Examples:
 
@@ -431,7 +431,7 @@ cat ~/.viminfo
 
 ```
 
-![1_poB0Dq-cXOF55slrKD9rmQ.webp](1_poB0Dq-cXOF55slrKD9rmQ.webp)
+![1_poB0Dq-cXOF55slrKD9rmQ.png](1_poB0Dq-cXOF55slrKD9rmQ.png)
 
 This file may contain:
 
@@ -449,7 +449,7 @@ This file may contain:
 cat /var/log/auth.log* | grep -i apt-get
 ```
 
-![1_gaHgCP8XI4--fAdiPpqbVg.webp](1_gaHgCP8XI4--fAdiPpqbVg.webp)
+![1_gaHgCP8XI4--fAdiPpqbVg.png](1_gaHgCP8XI4--fAdiPpqbVg.png)
 
 **Answer:** `sudo apt-get install apache2`
 
@@ -459,7 +459,7 @@ cat /var/log/auth.log* | grep -i apt-get
 
 Using the same command as previous one
 
-![1_2ajwsJFLx9AK7cxunyNNJA.webp](1_2ajwsJFLx9AK7cxunyNNJA.webp)
+![1_2ajwsJFLx9AK7cxunyNNJA.png](1_2ajwsJFLx9AK7cxunyNNJA.png)
 
 **Answer:** `/home/ubuntu`
 
@@ -501,7 +501,7 @@ Almost all logs are stored in:
     cat /var/log/syslog* | head
     ```
     
-    ![1_BrGpOmYYbXLnvJeZjXIuBQ.webp](1_BrGpOmYYbXLnvJeZjXIuBQ.webp)
+    ![1_BrGpOmYYbXLnvJeZjXIuBQ.png](1_BrGpOmYYbXLnvJeZjXIuBQ.png)
     
 - To view all rotated logs at once:
     
@@ -531,7 +531,7 @@ Almost all logs are stored in:
     cat /var/log/auth.log* | head
     ```
     
-    ![1_ABMxEg5jLQPvOblI5gCeYw.webp](1_ABMxEg5jLQPvOblI5gCeYw.webp)
+    ![1_ABMxEg5jLQPvOblI5gCeYw.png](1_ABMxEg5jLQPvOblI5gCeYw.png)
     
 
 ---
@@ -556,7 +556,7 @@ ls /var/log/
 
 As is obvious, we can find the apache logs in the apache2 directory and samba logs in the samba directory.
 
-![1_mieY0XRk1X-vw-4ZQXJzpA.webp](1_mieY0XRk1X-vw-4ZQXJzpA.webp)
+![1_mieY0XRk1X-vw-4ZQXJzpA.png](1_mieY0XRk1X-vw-4ZQXJzpA.png)
 
 ---
 
