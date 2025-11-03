@@ -49,7 +49,7 @@ Other notable integrations that TheHive supports are [DigitalShadows2TH](https:
 
 1. **Which open-source platform supports the analysis of observables within TheHive?**
     
-    ![1_rRtWukZqkfm-G1d415lByw.webp](1_rRtWukZqkfm-G1d415lByw.webp)
+    ![1_rRtWukZqkfm-G1d415lByw.png](1_rRtWukZqkfm-G1d415lByw.png)
     
     **Answer:** `Cortex`
     
@@ -115,21 +115,21 @@ Log on to the *analyst* profile using the credentials:
 
 1. **Which pre-configured account cannot manage any cases?**
     
-    ![1_LBPLHflD7YZmC1RTTQnAqg.webp](1_LBPLHflD7YZmC1RTTQnAqg.webp)
+    ![1_LBPLHflD7YZmC1RTTQnAqg.png](1_LBPLHflD7YZmC1RTTQnAqg.png)
     
     **Answer**: admin
     
 
 1. **Which permission allows a user to create, update or delete observables?**
     
-    ![1_4kkCi_ETZhmTRDjbbQACFQ.webp](1_4kkCi_ETZhmTRDjbbQACFQ.webp)
+    ![1_4kkCi_ETZhmTRDjbbQACFQ.png](1_4kkCi_ETZhmTRDjbbQACFQ.png)
     
     **Answer:** manageObservable
     
 
 1. **Which permission allows a user to execute actions?**
     
-    ![1_eCATK_Vno7vw5D3BkWLwaw.webp](1_eCATK_Vno7vw5D3BkWLwaw.webp)
+    ![1_eCATK_Vno7vw5D3BkWLwaw.png](1_eCATK_Vno7vw5D3BkWLwaw.png)
     
     **Answer:** manageAction
     
